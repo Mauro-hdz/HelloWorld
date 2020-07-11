@@ -8,7 +8,8 @@ namespace HelloWorld
         {
 
             int count = 20;
-            Console.WriteLine("Hello World I am a C# program.");
+            string intro = "Hello user I am a C# program";
+            Console.WriteLine(intro);
             Console.WriteLine($"count is: {count}");
         }
     }
